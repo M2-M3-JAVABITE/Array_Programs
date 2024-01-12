@@ -1,0 +1,25 @@
+//created a java program to take String type of values of size 12 with the help of array and then print it.
+package Array_Programs;
+
+public class Array_String_Ex {
+	public static void main(String[] args)
+	{
+		String a[]=new String[12];
+		a[0]="Jan";
+		a[1]="Feb";
+		a[2]="Mar";
+		a[3]="Apr";
+		a[4]="May";
+		a[5]="Jun";
+		a[6]="Jul";
+		a[7]="Aug";
+		a[8]="Sep";
+		a[9]="Oct";
+		a[10]="Nov";
+		a[11]="Dec";
+		for(int i=0;i<=11;i++)
+		{
+			System.out.println(a[i]);
+		}
+}
+}
