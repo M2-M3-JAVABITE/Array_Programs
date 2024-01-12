@@ -1,0 +1,25 @@
+//Creted a java program to take char type of values of size 10 and then print it.
+
+package Array_Programs;
+
+public class Array_Char_Ex {
+	public static void main(String[] args)
+	{
+		char a[]=new char[10];
+		a[0]='!';
+		a[1]='@';
+		a[2]='#';
+		a[3]='$';
+		a[4]='%';
+		a[5]='^';
+		a[6]='&';
+		a[7]='*';
+		a[8]='<';
+		a[9]='~';
+		
+		for(int i=0;i<=9;i++)
+		{
+			System.out.println(a[i]);
+		}
+}
+}
