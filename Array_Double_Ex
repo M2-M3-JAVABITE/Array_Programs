@@ -1,0 +1,24 @@
+//Created a java Program to get double type of values of size 10 with the help of array and then print it.
+
+package Array_Programs;
+
+public class Array_Double_Ex {
+	public static void main(String[] args)
+	{
+		double a[]=new double[10];
+		a[0]=10.5;
+		a[1]=20.5;
+		a[2]=30.5;
+		a[3]=40.5;
+		a[4]=50.5;
+		a[5]=60.5;
+		a[6]=70.5;
+		a[7]=80.5;
+		a[8]=90.5;
+		a[9]=100.5;
+		for(int i=0;i<=9;i++)
+		{
+			System.out.println(a[i]);
+		}
+	}
+}
