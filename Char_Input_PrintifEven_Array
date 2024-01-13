@@ -1,0 +1,28 @@
+//Created a java program to take user input of elements of an array of char Type and then print if it is even.
+
+package Array_Programs;
+
+import java.util.Scanner;												//imported Scanner class to take user input
+
+public class Char_Input_PrintifEven_Array
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		char ch[]=new char[4];		    								//Declared an array of char type	
+		
+		System.out.println("Enter elements of array of size "+ch.length+" : - ");
+		for(int i=0;i<ch.length;i++)									//using loop we can initialize values 
+		{
+			ch[i]=sc.next().charAt(0);
+		}
+		for(int j=0;j<ch.length;j++)									//use loop to check if ascii value of a char is even or not 
+		{
+			int c=ch[j];
+			if(c%2==0)
+			{
+				System.out.println(ch[j]+" ascii value is "+ c + " however, it is an even number");		//printing statement
+			}
+		}
+	}
+}
