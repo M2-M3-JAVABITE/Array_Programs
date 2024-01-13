@@ -18,7 +18,7 @@ public class Char_Array_UserInput
 		}
 		for(int j=0;j<ch.length;j++)									//using loop for printing the values
 		{
-			System.out.println("str["+j+"] = "+ch[j]);
+			System.out.println("ch["+j+"] = "+ch[j]);
 		}
 	}
 }
