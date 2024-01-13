@@ -1,0 +1,28 @@
+//created a java program in array which will take input from user and check which elements of an array are even and the print it.
+
+package Array_Programs;
+
+import java.util.Scanner;								//imported scanner class to take user input
+
+public class Array_CheckEvenNo {
+	public static void main(String [] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		int a[]=new int[5];								//Declared an array of String type
+		System.out.println("Enter the elements of an array of size "+a.length+" :- ");
+		for(int i=0;i<a.length;i++)						//using loop we initialized values 
+		{
+			System.out.print("a["+i+"]= ");
+			a[i]=sc.nextInt();
+			
+		}
+		for(int j=0;j<a.length;j++)						//using loop we are printing the even values
+		{
+			if(a[j]%2==0)
+			{
+				System.out.println("a["+j+"] which is " + a[j]+" is even");
+			}
+		}
+		
+	}
+}
