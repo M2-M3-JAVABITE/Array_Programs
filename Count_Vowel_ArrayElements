@@ -1,0 +1,28 @@
+//Created a java program to take user input of elements of an array of char Type and then count the number of vowels and print it.
+
+package Array_Programs;
+
+import java.util.Scanner;												//imported Scanner class to take user input
+
+public class Count_Vowel_ArrayElements
+{
+	public static void main(String[] args)
+	{
+		Scanner sc=new Scanner(System.in);
+		char ch[]=new char[5];		    								//Declared an array of char type	
+		int count=0;
+		System.out.println("Enter alphabets in array of size "+ch.length+" : - ");
+		for(int i=0;i<ch.length;i++)									//using loop we can initialize values 
+		{
+			ch[i]=sc.next().charAt(0);
+		}
+		for(int j=0;j<ch.length;j++)									//used loop to count alphabets 
+		{
+			if(ch[j]=='a' || ch[j]=='e' || ch[j]=='i' || ch[j]=='o' || ch[j]=='u')
+			{
+				count++;
+			}
+		}
+		System.out.println("There are "+count+ "vowels in char array");	//printing statement
+	}
+}
